@@ -100,29 +100,34 @@ The dataset contains agricultural and environmental features used for crop recom
 ```bash
 git clone <repository-url>
 cd Crop-Recommendation-System
+```
 
 2️⃣ Create & Activate Virtual Environment
 
 Windows
-
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 macOS / Linux
-
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 3️⃣ Install Dependencies
+```
 pip install -r requirements.txt
-
+```
 4️⃣ Run the Application
+```
 python app.py
+```
 
 5️⃣ Open in Browser
+```
 http://127.0.0.1:5000
-
+```
 🖥️ Web Application
 
 Enter soil and climate parameters
