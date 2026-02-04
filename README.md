@@ -36,29 +36,30 @@ The model is trained on a crop recommendation dataset and deployed using **Flask
 
 ## 📂 Project Structure
 
+```text
 Crop-Recommendation-System/
 │
-├── app.py # Flask application
-├── README.md # Project documentation
-├── requirements.txt # Dependencies
+├── app.py                     # Flask application
+├── README.md                  # Project documentation
+├── requirements.txt           # Dependencies
 │
-├── models/ # Trained ML artifacts
-│ ├── model.pkl
-│ ├── minmaxscaler.pkl
-│ └── standscaler.pkl
+├── models/                    # Trained ML artifacts
+│   ├── model.pkl
+│   ├── minmaxscaler.pkl
+│   └── standscaler.pkl
 │
-├── data/ # Dataset & notebook
-│ ├── Crop_recommendation.csv
-│ └── Crop Classification With Recommendation.ipynb
+├── data/                      # Dataset & notebook
+│   ├── Crop_recommendation.csv
+│   └── Crop Classification With Recommendation.ipynb
 │
-├── templates/ # HTML templates
-│ └── index.html
+├── templates/                 # HTML templates
+│   └── index.html
 │
-├── static/ # Static assets
-│ └── img.jpg
+├── static/                    # Static assets
+│   └── img.jpg
 │
-└── venv/ # Virtual environment
-
+└── venv/                      # Virtual environment
+```
 ## 📊 Dataset Description
 The dataset contains agricultural and environmental features used for crop recommendation.
 
