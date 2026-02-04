@@ -3,7 +3,6 @@
 A **Flask-based Machine Learning web application** that recommends the most suitable crop to cultivate based on **soil nutrients** and **environmental conditions**.  
 The system uses a trained ML model and a clean, responsive web interface to provide **real-time crop recommendations**.
 
----
 
 ## 📌 Project Overview
 
@@ -12,7 +11,6 @@ This project leverages **Machine Learning** to analyze key parameters such as **
 
 The model is trained on a crop recommendation dataset and deployed using **Flask**.
 
----
 
 ## ✨ Features
 
@@ -60,7 +58,6 @@ Crop-Recommendation-System/
 │ └── img.jpg
 │
 └── venv/ # Virtual environment
----
 
 ## 📊 Dataset Description
 -------------------------------
