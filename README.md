@@ -1,10 +1,10 @@
-# 🌾 Crop Recommendation System using Machine Learning
+## Crop Recommendation System using Machine Learning
 
 A **Flask-based Machine Learning web application** that recommends the most suitable crop to cultivate based on **soil nutrients** and **environmental conditions**.  
 The system uses a trained ML model and a clean, responsive web interface to provide **real-time crop recommendations**.
 
 
-## 📌 Project Overview
+##  Project Overview
 
 Choosing the right crop based on soil composition and climate conditions is crucial for maximizing agricultural yield.  
 This project leverages **Machine Learning** to analyze key parameters such as **NPK values, temperature, humidity, pH, and rainfall**, and recommends the most appropriate crop.
@@ -12,7 +12,7 @@ This project leverages **Machine Learning** to analyze key parameters such as **
 The model is trained on a crop recommendation dataset and deployed using **Flask**.
 
 
-## ✨ Features
+##  Features
 
 - 🌱 Crop recommendation based on soil & climate data  
 - 🧠 Machine Learning–based prediction  
@@ -23,7 +23,7 @@ The model is trained on a crop recommendation dataset and deployed using **Flask
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**
 - **Flask** – Web framework
