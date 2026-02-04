@@ -122,6 +122,23 @@ python app.py
 http://127.0.0.1:5000
 ```
 
+## 🤝 Contributing
+
+Contributions are welcome and appreciated!  
+If you’d like to improve this project, follow the steps below:
+
+1. **Fork** the repository
+2. **Create a new branch** for your feature or fix  
+   ```bash
+   git checkout -b feature/your-feature-name
+Make your changes and commit them with a clear message
+
+git commit -m "Add: short description of changes"
+
+Push the changes to your fork
+```
+git push origin feature/your-feature-name 
+```
 ###  Web Application
 ---------------
 - Enter soil and climate parameters
