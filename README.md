@@ -122,9 +122,7 @@ python app.py
 http://127.0.0.1:5000
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome and appreciated!  
+## Contributions are welcome and appreciated! 
 If you’d like to improve this project, follow the steps below:
 
 1. **Fork** the repository
