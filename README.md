@@ -60,14 +60,10 @@ Crop-Recommendation-System/
 │ └── img.jpg
 │
 └── venv/ # Virtual environment
-
-### Dataset Description
------------------------------
-
 ---
 
 ## 📊 Dataset Description
-
+-------------------------------
 The dataset contains agricultural and environmental features used for crop recommendation.
 
 ### 🔹 Input Features
@@ -128,42 +124,33 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
-🖥️ Web Application
 
-Enter soil and climate parameters
-
-Click Get Recommendation
-
-The system displays the recommended crop instantly
+###  Web Application
+---------------
+- Enter soil and climate parameters
+- Click Get Recommendation
+- The system displays the recommended crop instantly
 
 ### Notes
-
-Ensure the model and scaler files are present in the models/ folder
-
-Minor scikit-learn version warnings may appear but do not affect functionality
-
-This project uses Flask’s development server (not for production use)
+-----------
+- Ensure the model and scaler files are present in the models/ folder
+- Minor scikit-learn version warnings may appear but do not affect functionality
+- This project uses Flask’s development server (not for production use)
 
 ### Future Enhancements
-
-Add prediction confidence score
-
-Improve UI with animations
-
-Add REST API endpoint
-
-Deploy on cloud platforms (Render / AWS / Railway)
-
-Add database for prediction history
+-------------
+- Add prediction confidence score
+- Improve UI with animations
+- Add REST API endpoint
+- Deploy on cloud platforms (Render / AWS / Railway)
+- Add database for prediction history
 
 ### License
-
+---------------
 This project is intended for educational and research purposes.
 
 ### Acknowledgments
-
-Crop Recommendation Dataset
-
-Scikit-learn Documentation
-
-Flask Framework
+---------------------
+- Crop Recommendation Dataset
+- Scikit-learn Documentation
+- Flask Framework
