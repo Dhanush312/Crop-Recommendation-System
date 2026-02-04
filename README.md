@@ -1,105 +1,103 @@
-###  Crop Recommendation System using Machine Learning
+# 🌾 Crop Recommendation System using Machine Learning
 
-A Flask-based Machine Learning web application that recommends the most suitable crop to cultivate based on soil nutrients and environmental conditions.
-The system uses a trained ML model and a clean, responsive web interface to provide real-time predictions.
+A **Flask-based Machine Learning web application** that recommends the most suitable crop to cultivate based on **soil nutrients** and **environmental conditions**.  
+The system uses a trained ML model and a clean, responsive web interface to provide **real-time crop recommendations**.
 
-### Project Overview
+---
 
-Choosing the right crop based on soil composition and climate conditions is crucial for maximizing agricultural yield.
-This project leverages Machine Learning to analyze key parameters such as NPK values, temperature, humidity, pH, and rainfall, and recommends the most appropriate crop.
+## 📌 Project Overview
 
-The model is trained on a crop recommendation dataset and deployed using Flask.
+Choosing the right crop based on soil composition and climate conditions is crucial for maximizing agricultural yield.  
+This project leverages **Machine Learning** to analyze key parameters such as **NPK values, temperature, humidity, pH, and rainfall**, and recommends the most appropriate crop.
 
-### Features
+The model is trained on a crop recommendation dataset and deployed using **Flask**.
 
-🌱 Crop recommendation based on soil & climate data
+---
 
-🧠 Machine Learning–based prediction
+## ✨ Features
 
-🌐 User-friendly web interface
+- 🌱 Crop recommendation based on soil & climate data  
+- 🧠 Machine Learning–based prediction  
+- 🌐 User-friendly web interface  
+- ⚡ Real-time prediction  
+- 📊 Proper data preprocessing using scalers  
+- 🧩 Clean and modular project structure  
 
-⚡ Real-time prediction
+---
 
-📊 Proper data preprocessing using scalers
+## 🛠️ Technologies Used
 
-🧩 Clean, modular project structure
+- **Python**
+- **Flask** – Web framework
+- **Scikit-learn** – Machine learning
+- **NumPy** – Numerical computations
+- **Bootstrap 5** – Frontend styling
+- **HTML / CSS**
 
-### Technologies Used
+---
 
-Python
+## 📂 Project Structure
 
-Flask – Web framework
-
-Scikit-learn – Machine learning
-
-NumPy – Numerical computations
-
-Bootstrap 5 – Frontend styling
-
-HTML / CSS
-
-### 📂 Project Structure
 Crop-Recommendation-System/
 │
-├── app.py                     # Flask application
-├── README.md                  # Project documentation
-├── requirements.txt           # Dependencies
+├── app.py # Flask application
+├── README.md # Project documentation
+├── requirements.txt # Dependencies
 │
-├── models/                    # Trained ML artifacts
-│   ├── model.pkl
-│   ├── minmaxscaler.pkl
-│   └── standscaler.pkl
+├── models/ # Trained ML artifacts
+│ ├── model.pkl
+│ ├── minmaxscaler.pkl
+│ └── standscaler.pkl
 │
-├── data/                      # Dataset & notebook
-│   ├── Crop_recommendation.csv
-│   └── Crop Classification With Recommendation.ipynb
+├── data/ # Dataset & notebook
+│ ├── Crop_recommendation.csv
+│ └── Crop Classification With Recommendation.ipynb
 │
-├── templates/                 # HTML templates
-│   └── index.html
+├── templates/ # HTML templates
+│ └── index.html
 │
-├── static/                    # Static assets
-│   └── img.jpg
+├── static/ # Static assets
+│ └── img.jpg
 │
-└── venv/                      # Virtual environment
+└── venv/ # Virtual environment
 
 ### Dataset Description
+-----------------------------
 
-The dataset contains agricultural and environmental features.
+---
 
-Input Features
+## 📊 Dataset Description
 
-Nitrogen (N)
+The dataset contains agricultural and environmental features used for crop recommendation.
 
-Phosphorus (P)
+### 🔹 Input Features
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- Temperature (°C)
+- Humidity (%)
+- pH
+- Rainfall (mm)
 
-Potassium (K)
+### 🎯 Target
+- Crop label (Rice, Maize, Cotton, Banana, etc.)
 
-Temperature (°C)
+---
 
-Humidity (%)
+## 🧠 Machine Learning Workflow
 
-pH
+1. Data collection and exploration  
+2. Feature preprocessing and scaling  
+3. Model training and evaluation  
+4. Saving trained model and scalers (`.pkl`)  
+5. Deployment using Flask  
 
-Rainfall (mm)
+---
 
-### Target
+## 🚀 How to Run the Project Locally
 
-Crop label (Rice, Maize, Cotton, Banana, etc.)
-
-### Machine Learning Workflow
-
-Data collection and exploration
-
-Feature preprocessing and scaling
-
-Model training and evaluation
-
-Saving trained model and scalers (.pkl)
-
-Deployment using Flask
-
-### How to Run the Project Locally
-1️⃣ Clone or Download the Project
+### 1️⃣ Clone or Download the Project
+```bash
 git clone <repository-url>
 cd Crop-Recommendation-System
 
