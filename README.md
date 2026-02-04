@@ -60,7 +60,6 @@ Crop-Recommendation-System/
 └── venv/ # Virtual environment
 
 ## 📊 Dataset Description
--------------------------------
 The dataset contains agricultural and environmental features used for crop recommendation.
 
 ### 🔹 Input Features
